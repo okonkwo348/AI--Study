@@ -101,41 +101,17 @@ None / non-string input (will crash)
 
 3. Are there better approaches?"
 
-Yes — mainly better in space usage or simplicity (time stays O(n)).
+Yes — Pythonic reverse check
 
-a. Two-pointer in place (best overall)
+`def is_palindrome(s: str) -> bool:
+    cleaned = ''.join(c.lower() for c in s if c.isalnum())
+    return cleaned == cleaned[::-1]
 
-O(n) time, O(1) space
-Skips non-alphanumerics without building a new string.
-
-b. Pythonic reverse check**
-
-```python
-s = ''.join(c.lower() for c in s if c.isalnum())
-return s == s[::-1]
-```
-
-Very clean, readable
-O(n) time, O(n) space
-
-c. `re` (regex) clean then compare**
-+
-```python
-import re
-s = re.sub(r'[^A-Za-z0-9]', '', s).lower()
-return s == s[::-1]
-```
-
-Concise, expressive
-O(n) time, O(n) space
-
-Best for interviews: two-pointer in place.
-Best for readability: reverse check.
 
 
 Step 3 - Reflection
 
-What did you learn from solving it before asking AI?
+# What did you learn from solving it before asking AI?
 
 I learnt how to use while loop in solving the problem rather than using only if condition.
 I also learnt to handle the spaces and case in a phrase string using replace and lowercase methods.
@@ -143,14 +119,13 @@ I learnt a lot about pseudocode like putting keywords in capital letter eg FUNCT
 Also, that the pseudocode focuses on logic rather than syntax.
 I learnt what is a palindrome and how to create a python function.
 
-How is your understanding different now?
+# How is your understanding different now?
 
-Initially, I saw it impossible to solve a question entirely without first going to ChatGPT.
+Initially, it's impossible to solve a question entirely without first going to ChatGPT.
 But my perception is changed now because I did the pseudocode of a Palindrome python function without using AI.
-I can approach now approach any question without going first to AI.
-
+I can now approach any question without going first to AI.
 I am confidence of my code and can defend it.
 
-Could you now write similar functions (e.g., reverse a string) without help?
+# Could you now write similar functions (e.g., reverse a string) without help?
 
 Yes, I can. I was able to learn another approach of solving the problem.

@@ -19,5 +19,6 @@ I know I am using AI fairly when:
    I feel more confident in my own understanding.
 
 
-Sign and date: Okonkwo Emmanuel Chisom   11/02/2026
+**[Sign]** :  Okonkwo Emmanuel Chisom 
+**[date]** :  11/02/2026
 

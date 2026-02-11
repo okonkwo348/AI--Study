@@ -14,6 +14,6 @@ Conceptual Understanding        3           Exercise patience in reading, studyi
 #Choose your lowest-rated skill and write 3 specific actions you'll take this week to improve it without relying on AI.
 
 Critcal Evaluation:
-    Understand the concept and basic of a programming language.
-    Understand logic flow of a program.
-    Pay attention to indentation.
+    - Understand the concept and basic of a programming language.
+    - Understand logic flow of a program.
+    - Pay attention to indentation.
