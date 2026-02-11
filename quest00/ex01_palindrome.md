@@ -3,27 +3,27 @@ Step 1 - Do it yourself
 1. #Write pseudocode for a function that checks if a string is a palindrome.
 
  FUNCTION is_Palindrome(input_string)
-     SET input_string to input_stringe with all spaces removed
-     SET input_string to lowercase
+    SET input_string to input_stringe with all spaces removed
+    SET input_string to lowercase
 
-     SET left to 0
-     SET right to length of input_string minus 1
+    SET left to 0
+    SET right to length of input_string minus 1
 
-     WHILE left less than right
-         IF input_string at position left is not equal to input_string at position right:
-             RETURN False
+    WHILE left less than right
+        IF input_string at position left is not equal to input_string at position right:
+            RETURN False
 
-         INCREMENT left 1
-         DECREMENT right 1
+        INCREMENT left 1
+        DECREMENT right 1
 
-         ENDIF
+        ENDIF
 
-     RETURN True
-     ENDWHILE
+    RETURN True
+    ENDWHILE
 
- INPUT input_string
- PRINT is_Palindrome(input_string)
- END FUNCTION
+INPUT input_string
+PRINT is_Palindrome(input_string)
+END FUNCTION
 
 2. #Implement your solution in Python.
 
