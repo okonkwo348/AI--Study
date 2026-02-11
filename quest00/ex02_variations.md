@@ -6,10 +6,10 @@ def is_palindrome(s):
            cleaned_str += char.lower()
           
    
-   left = 0
-   right = len(cleaned_str)-1
+    left = 0
+    right = len(cleaned_str)-1
   
-   while left < right:
+    while left < right:
        if cleaned_str[left] != cleaned_str[right]:
            return {
                "is_palindrome":False,
@@ -17,12 +17,12 @@ def is_palindrome(s):
                "palindrome_rightchar":cleaned_str[right],
                "palindrome_leftchar":cleaned_str[left]
            }
-       left  += 1
-       right -= 1
-   return {
-       "is_palindrome":True,
-       "Index valu":None
-   }
+        left  += 1
+        right -= 1
+    return {
+        "is_palindrome":True,
+        "Index valu":None
+    }
 
 print(is_palindrome("A man a plan a canal Panam"))  
 print(is_palindrome("Mr. Owl ate my metal worm")) 
