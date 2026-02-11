@@ -2,7 +2,7 @@ Step 1 - Do it yourself
 
 1. #Write pseudocode for a function that checks if a string is a palindrome.
 
- FUNCTION is_Palindrome(input_string)
+FUNCTION is_Palindrome(input_string)
     SET input_string to input_stringe with all spaces removed
     SET input_string to lowercase
 
@@ -103,7 +103,7 @@ None / non-string input (will crash)
 
 Yes — Pythonic reverse check
 
-`def is_palindrome(s: str) -> bool:
+def is_palindrome(s: str) -> bool:
     cleaned = ''.join(c.lower() for c in s if c.isalnum())
     return cleaned == cleaned[::-1]
 
