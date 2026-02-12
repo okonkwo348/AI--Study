@@ -1,3 +1,11 @@
+1. Modify your palindrome function to:
+
+    Ignore spaces and punctuation.
+
+    Be case-insensitive.
+
+    Return the position where the string stops being a palindrome (if not one).
+
 def is_palindrome(s):
    
    cleaned_str = ""
@@ -30,7 +38,7 @@ print(is_palindrome("No 'x' in Nixon"))
 
 
 
-Did I miss anything? Can it be more efficient?"
+2.  Did I miss anything? Can it be more efficient?"
 
 Modified version has the following:
 - Uses O(1) extra space
@@ -61,3 +69,9 @@ def is_palindrome(s: str) -> dict:
         "is_palindrome": True,
         "mismatch_index": None
     }
+
+    Reflect on what AI added that you didn't consider initially.
+
+    I didn't considered space complexity and time complexity at first but after using AI 
+    I found out I can reduce them by reducing some code of lines therefore avoiding the creation of new vaqriables.
+    Initailly, my first code has O(0) space complexity  but now it is O(1) space complexity.
