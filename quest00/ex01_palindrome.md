@@ -1,6 +1,6 @@
 Step 1 - Do it yourself
 
-1. #Write pseudocode for a function that checks if a string is a palindrome.
+1. Write pseudocode for a function that checks if a string is a palindrome.
 
 FUNCTION is_Palindrome(input_string)
     SET input_string to input_stringe with all spaces removed
@@ -25,7 +25,7 @@ INPUT input_string
 PRINT is_Palindrome(input_string)
 END FUNCTION
 
-2. #Implement your solution in Python.
+2. Implement your solution in Python.
 
 
 def is_palindrome(input_string):
@@ -42,7 +42,7 @@ def is_palindrome(input_string):
         
     return True
 
-3.#Test with examples like "racecar", "hello", and "A man a plan a canal Panama".
+3.Test with examples like "racecar", "hello", and "A man a plan a canal Panama".
 
 print(is_palindrome("racar"))
 print(is_palindrome("hello"))
