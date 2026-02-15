@@ -9,7 +9,7 @@
 
 3. `New Technology: A new library is released, and AI hasn't been trained on it yet. How do you learn it?
 
-  Since AI has not been trained on it I will learn the library gradually in order to understand it, be confident in it and explain it.
+  Since AI has not been trained on it I will gradually read the documentation in order to understand it, be confident in it and explain it.
 
 
 Reflection: Write one paragraph explaining how using AI fairly today prepares you for real-world challenges like these.
