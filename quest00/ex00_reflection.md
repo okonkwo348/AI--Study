@@ -6,7 +6,9 @@
 
     b. Do you usually try problems yourself first?
 
-    yes, but not always. Sometimes I just use AI to save me stress and time.
+    Yes, but sometimes i try things myself. Most time I just want to do things
+    fast and easy myself of stress so i use AI.
+
 
     c. Can you explain code you've submitted without AI's help?
 
