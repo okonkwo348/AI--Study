@@ -73,8 +73,8 @@ Step 2 - Use AI to learn
 
 1. What's the time complexity?
 
-Time complexity: O(n)
-Space complexity: O(n) (because new strings are created)
+Time Complexity: O(n)
+Space Complexity: O(1)
 
 2. What edge cases might I miss?
 
@@ -122,6 +122,9 @@ I learnt what is a palindrome and how to create a python function.
 
 # How is your understanding different now?
 
+ I now know how to create a function that uses pointers to loop through
+ a string.I also has the perception now that one can actually solve a problem 
+independently of AI.
 Initially, it's impossible to solve a question entirely without first going to ChatGPT.
 But my perception is changed now because I did the pseudocode of a Palindrome python function without using AI.
 I can now approach any question without going first to AI.
