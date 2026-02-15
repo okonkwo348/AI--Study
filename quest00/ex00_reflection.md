@@ -16,9 +16,7 @@
 
     d. What would happen if AI was unavailable during an exam or job test?
 
-     I will definitely must have study and prepare very hard for such exam or
-      job before then without using
-      
+     I would try using my head and writing all I know.
 
 2. Identify your current pattern: 
 
