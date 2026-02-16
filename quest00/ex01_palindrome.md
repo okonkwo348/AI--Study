@@ -117,8 +117,7 @@ Step 3 - Reflection
 
 # What did you learn from solving it before asking AI?
 
-I learnt how to use while loop in solving the problem rather than using only if condition.
-I also learnt to handle the spaces and case in a phrase string using replace and lowercase methods.
+I learnt to handle the spaces and case in a phrase string using replace and lowercase methods.
 I learnt a lot about pseudocode like putting keywords in capital letter eg FUNCTION, WHILE, IF e.t.c.
 Also, that the pseudocode focuses on logic rather than syntax.
 I learnt what is a palindrome and how to create a python function.
