@@ -5,14 +5,12 @@
     a school management system at the model.py file. 
 
     b. Do you usually try problems yourself first?
-
-    Yes, but sometimes i try things myself. Most time I just want to do things
-    fast and easy myself of stress so i use AI.
+    yes, but not always. Sometimes I just use AI to save me stress and time.
 
 
     c. Can you explain code you've submitted without AI's help?
 
-    Yes, I have submitted a code written in Go language that print 'Z'.
+    Yes, I have submitted a code that print 'Z'.
 
     d. What would happen if AI was unavailable during an exam or job test?
 
@@ -25,6 +23,5 @@
 
 3. Write a short paragraph describing where you are today and what type of learner you want to become.
 
-    At the moment I am using AI as an answer generator more than a learning amplifier. 
-    Although it make me solve problem faster but it makes my confidence level on that body of knowledge low. 
+    At the moment I am using AI as an answer generator more than a learning amplifier. Although it make me solve problem faster but it makes my confidence level on that body of knowledge low. 
     I want to be a learner who uses AI for amplifying my learning by using AI ethically not to replace my thinking and creativity.

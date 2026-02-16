@@ -7,36 +7,36 @@
     Return the position where the string stops being a palindrome (if not one).
 
 def is_palindrome(s):
-   
-   cleaned_str = ""
-   for char in s:
-       if char.isalnum():
-           cleaned_str += char.lower()
-          
-   
+    cleaned_str = ""
+    for char in s:
+        if char.isalnum():
+            cleaned_str += char.lower()
+    
     left = 0
-    right = len(cleaned_str)-1
+    right = len(cleaned_str) - 1
   
     while left < right:
-       if cleaned_str[left] != cleaned_str[right]:
-           return {
-               "is_palindrome":False,
-               "index_number":left,
-               "palindrome_rightchar":cleaned_str[right],
-               "palindrome_leftchar":cleaned_str[left]
-           }
-        left  += 1
+        if cleaned_str[left] != cleaned_str[right]:
+            return {
+                "is_palindrome": False,
+                "mismatch_index": left,
+                "left_char": cleaned_str[left],
+                "right_char": cleaned_str[right]
+            }
+        left += 1
         right -= 1
+
     return {
-        "is_palindrome":True,
-        "Index valu":None
+        "is_palindrome": True,
+        "mismatch_index": None,
+        "left_char": None,
+        "right_char": None
     }
 
-print(is_palindrome("A man a plan a canal Panam"))  
+
+print(is_palindrome("A man, a plan, a canal, Panama"))  
 print(is_palindrome("Mr. Owl ate my metal worm")) 
 print(is_palindrome("No 'x' in Nixon"))
-
-
 
 2.  Did I miss anything? Can it be more efficient?"
 
@@ -44,7 +44,7 @@ Modified version has the following:
 - Uses O(1) extra space
 - Still O(n) time
 - Doesn't create any new string
-- Very common in coding interviews
+
 
 
 def is_palindrome(s: str) -> dict:
@@ -81,7 +81,9 @@ def is_palindrome(s: str) -> dict:
         "mismatch_index": None
     }
     Reflect on what AI added that you didn't consider initially.
+Modified version has the following:
+- Uses O(1) extra space
+- Still O(n) time
+- Doesn't create any new string
 
-    I didn't considered space complexity and time complexity at first but after using AI 
-    I found out I can reduce them by reducing some code of lines therefore avoiding the creation of new vaqriables.
-    Initailly, my first code has O(0) space complexity  but now it is O(1) space complexity.
+    
