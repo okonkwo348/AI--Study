@@ -35,12 +35,12 @@ def is_palindrome(input_string):
     right = len(input_string) - 1
     while left < right:
         if input_string[left]!= input_string[right]:
-            return False
+            return {"is_palindrome":False}
             
         left +=  1
         right -= 1
         
-    return True
+    return {"is_palindrome": True}
 
 3.Test with examples like "racecar", "hello", and "A man a plan a canal Panama".
 
@@ -51,21 +51,21 @@ print(is_palindrome("A man a plan a canal Panama"))
 
 4. #Add comments explaining your reasoning.
 
-- Create a python function "is_palindrome" with argument "input_string"
+# Create a python function "is_palindrome" with argument "input_string"
 
-- Remove empty spaces and change the input_string to lower case.
+# Remove empty spaces and change the input_string to lower case.
 
-- Set a variable "left" to 0
-- Set a Variable "right" to length of "case" minus ine
-- These variables are pointers to help run through the input_string
+# Set a variable "left" to 0
+# Set a Variable "right" to length of "case" minus ine
+# These variables are pointers to help run through the input_string
 
 
-- Create a while loop of left less than right to run through the input_string
-- If condition is created to help check if the left index and right index of the input_string are not equal returning False while the loop still runs by moving to the next line
-- As long the if condition is not met the loop continues to the increase the point from left by 1 and decrease the point from right by 1
-- The increament and drecreament of both pointers moves towards themselves while the WHILE loop is still met.
-- The loop dies when the pointers meet at the same index when left == right and return True. This implies that the input_string is a palindrome.
-- Whenever the fuction is call it returns either True or False depending whether the WHILE loop is met.
+# Create a while loop of left less than right to run through the input_string
+# If condition is created to help check if the left index and right index of the input_string are not equal returning False while the loop still runs by moving to the next line
+# As long the if condition is not met the loop continues to the increase the point from left by 1 and decrease the point from right by 1
+# The increament and drecreament of both pointers moves towards themselves while the WHILE loop is still met.
+# The loop dies when the pointers meet at the same index when left == right and return True. This implies that the input_string is a palindrome.
+# Whenever the fuction is call it returns either True or False depending whether the WHILE loop is met.
 
 
 
@@ -74,7 +74,7 @@ Step 2 - Use AI to learn
 1. What's the time complexity?
 
 Time Complexity: O(n)
-Space Complexity: O(1)
+Space Complexity: O(n)
 
 2. What edge cases might I miss?
 
@@ -105,7 +105,10 @@ Yes — Pythonic reverse check method
 
 def is_palindrome(s: str) -> bool:
     cleaned = ''.join(c.lower() for c in s if c.isalnum())
-    return cleaned == cleaned[::-1]
+    if cleaned == cleaned[::-1]:
+        return {"is_palindrome":True}
+    else:
+        return {"is_palindrome":False}
 
 It is more readable, less surface area for bugs,built on optimization
 
