@@ -48,20 +48,31 @@ Modified version has the following:
 
 
 def is_palindrome(s: str) -> dict:
-    cleaned = ''.join(c.lower() for c in s if c.isalnum())
-    
     left = 0
-    right = len(cleaned) - 1
+    right = len(s) - 1
     
     while left < right:
-        if cleaned[left] != cleaned[right]:
+        # 1. Skip non-alphanumeric from the left
+        if not s[left].isalnum():
+            left += 1
+            continue # Restart the loop to check the new s[left]
+            
+        # 2. Skip non-alphanumeric from the right
+        if not s[right].isalnum():
+            right -= 1
+            continue # Restart the loop to check the new s[right]
+            
+        # 3. Compare characters (case-insensitive)
+        if s[left].lower() != s[right].lower():
             return {
                 "is_palindrome": False,
                 "mismatch_left_index": left,
                 "mismatch_right_index": right,
-                "left_char": cleaned[left],
-                "right_char": cleaned[right]
+                "left_char": s[left],
+                "right_char": s[right]
             }
+        
+        # 4. Only move both if a valid comparison was made
         left += 1
         right -= 1
         
@@ -69,7 +80,6 @@ def is_palindrome(s: str) -> dict:
         "is_palindrome": True,
         "mismatch_index": None
     }
-
     Reflect on what AI added that you didn't consider initially.
 
     I didn't considered space complexity and time complexity at first but after using AI 
