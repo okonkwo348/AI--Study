@@ -1,4 +1,4 @@
-Step 1 - Do it yourself
+# Step 1 - Do it yourself
 
 1. Write pseudocode for a function that checks if a string is a palindrome.
 

@@ -80,6 +80,8 @@ def is_palindrome(s: str) -> dict:
         "is_palindrome": True,
         "mismatch_index": None
     }
+
+    
     Reflect on what AI added that you didn't consider initially.
 Modified version has the following:
 - Uses O(1) extra space

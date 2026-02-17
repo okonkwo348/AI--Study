@@ -9,7 +9,7 @@ Systems Thinking                4           Understand the how the logic flow an
 Critical Evaluation             2           know the logic and concepts of a programming languagem or project or program
 Debugging Mindset               3           Reading the error message carefully and exercise patience in fixing it
 Conceptual Understanding        3           Exercise patience in reading, studying and understanding the logic flow, concept and the issue a program is trying to solve
-sfdyfdghyufuy                   
+                   
 
 
 skill                           rated          
@@ -20,3 +20,5 @@ Critcal Evaluation:
     - Understand the concept and basic of a programming language.
     - Understand logic flow of a program.
     - Pay attention to indentation.
+
+
