@@ -9,7 +9,7 @@ I will NOT use AI when:
 
    - I haven't tried the problem myself.
    - I am completing an exams or quest.
-   - I am still learning fundamenttal concept.
+   - I am still learning fundamenttal concept.cd
 
 
 I know I am using AI fairly when:
@@ -22,3 +22,4 @@ I know I am using AI fairly when:
 **[Sign]** :  Okonkwo Emmanuel Chisom 
 **[date]** :  11/02/2026
 
+   

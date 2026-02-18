@@ -10,7 +10,7 @@
 
      Can you explain code you've submitted without AI's help?
 
-    - Yes, I have submitted a code that print 'Z'.
+    - Yes, I an explain it.
 
      What would happen if AI was unavailable during an exam or job test?
 
