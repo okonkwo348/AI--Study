@@ -10,7 +10,7 @@ Part A: The Critical Distinction
     fast and easy myself of stress so i use AI.
 
 - Can you explain code you've submitted without AI's help?
-    Yes, I have submitted a code written in Go language that print 'Z'.
+    Yes, I can explain it.
 
 - What would happen if AI was suddenly unavailable during an exam or interview?
     I would try using my head and writing all I know.
@@ -109,8 +109,8 @@ Step 3: Reflection
    - What did you learn by struggling first?
 
         I learnt how the two pointers move from the ends of a string to the 
-        middle of the string at the While loop. I also learnt how to find the
-         variable of the two pointers.
+        middle of the string at the While loop. I also learnt how the
+         variables of the two pointers move.
 
    - How is your understanding different than if you'd just asked for the solution?
 
@@ -205,21 +205,49 @@ AI modification
 
     Part D: The Fairness Contract
 
-    1. I will use AI when:
+    Here is a well-rounded and academically strong completion you can use:
 
-    After I've attemptyed a problem for at least 20 minutes
-    To understand why my solution works/doesn't
-    To explore alternatives after i have a working solution
 
-    2. I will NOT use AI when:
-    I haven't tried the problem myself
-    I'm taking an assessment or test
-    I need to build fundamentals
 
-    3. I know I'm using AI fairly when:
-    I can explain my code without looking at AI's response
-    I could solve similsr problems without AI
-    I feel more confident in my abilities
+**I will use AI when:**
+
+* After I've attempted a problem for at least 20 minutes
+* To understand why my solution works/doesn't
+* To explore alternatives after I have a working solution
+* To debug errors I cannot identify on my own
+* To learn new concepts or clarify confusing topics
+* To review best practices and improve code quality
+* To get explanations, not just answers
+* To check for edge cases I may have missed
+* To deepen my understanding rather than replace my thinking
+
+
+
+**I will NOT use AI when:**
+
+* I haven't tried the problem myself
+* I'm taking an assessment or test
+* I need to build fundamentals
+* I am expected to produce original work without assistance
+* I am copying solutions without understanding them
+* I am using it as a shortcut instead of learning
+* The task is meant to test my independent problem-solving ability
+* I cannot explain the solution in my own words afterward
+
+
+
+**I know I'm using AI fairly when:**
+
+* I can explain my code without looking at AI's response
+* I could solve similar problems without AI
+* I feel more confident in my abilities
+* I modify and adapt AI suggestions instead of copying them directly
+* I understand the logic behind every solution provided
+* My learning improves rather than becomes dependent on AI
+* I use AI as a tutor, not a replacement for effort
+* I verify outputs instead of blindly trusting them
+* I can identify mistakes in AI-generated answers
+
 
 
     **[sign]**: Okonkwo Emmanuel Chisom     
@@ -262,7 +290,8 @@ skill                           rated
 
 Choose your lowest-rated skill and write 3 specific actions you'll take this week to improve it without relying on AI.
 
-Critcal Evaluation:
+Critcal Evaluation
+Goal: Strengthen my ability to deeply understand concepts instead of just applying solutions.
     - Understand the concept and basic of a programming language.
     - Understand logic flow of a program.
     - Pay attention to indentation.
