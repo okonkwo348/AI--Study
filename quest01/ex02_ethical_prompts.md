@@ -71,3 +71,56 @@ Part B: Test and Validate
     III) The improved prompt was brief, organized, well ordered and much readable but the test original out put was not ordered and structured, and less readable.
 
 
+7. "Original: [...] Improved: [...] My reasoning: [...] What ethical issues might I have missed? How could this still go wrong?"
+
+    I) Your improved prompt is clearer, but you may have missed ethical risks like promoting aggressive dog use, reinforcing breed stereotypes, ignoring animal welfare needs, and giving advice that may not fit legal or living conditions.
+
+    It could still go wrong if someone chooses a dog only for guarding without proper training, care, or understanding of temperament, which can harm both the animal and people.
+
+    A more ethical approach is to include responsibility, training, and welfare — not just protection features — so the information stays safe, balanced, and realistic.
+
+    I could refine it like this:
+
+    “Tell me about German dog breeds with mixed coat colours that are suitable for home protection. Include information about temperament, training needs, and responsible ownership in about 250 words.”
+
+
+    II) Using an “expert” persona can create a false sense of authority, encourage over-trust in the response, and risk authenticity or plagiarism issues if published as your own expertise. It could also include outdated or inaccurate technical details. Always verify, adapt, and ensure the work reflects your real understanding.
+
+    You could refine the prompt like this:
+
+    “Write a technically accurate summary of Django for building a blog. Include architecture, security features, and best practices. I will review and adapt it.”
+
+    This:
+
+    Removes false authority framing
+
+    Encourages verification
+
+    Keeps responsibility with you
+
+    III) Structured prompts improve clarity and automation, but they risk oversimplifying research, misrepresenting findings, omitting limitations, and producing misleading summaries if the original nuance is compressed or not carefully verified.
+
+    I could refine it to:
+
+    “Summarize the journal into bullet points under Problem, Method, Key Findings, Limitations, and Outcome. Do not add information not explicitly stated.”
+
+    This:
+
+    Preserves nuance
+
+    Reduces hallucination
+
+    Improves academic integrity
+
+    Keeps structure without distortion
+
+
+Part C: Reflection
+
+    - If you'd asked AI to "write ethical prompts" from the start, would you understand why they're ethical?
+
+    Yes, I will understand why they are ethical.
+
+    - Can you now design ethical prompts without AI?
+
+    Yes, I can design a design ethical prompts without AI.
