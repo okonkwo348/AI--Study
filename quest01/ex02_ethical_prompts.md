@@ -6,7 +6,7 @@ https://blog.agent.ai/how-to-identify-and-fix-a-bad-prompt
 1. Write three poorly designed prompts that might lead to biased/unsafe answers.
     I) Tell me about animals.
     II) Write a about Django framework
-    III)Write a summary of this journal.
+    III)Write a summary of this journal on kids.
 
 2.  For each, note:
 
@@ -31,7 +31,7 @@ https://blog.agent.ai/how-to-identify-and-fix-a-bad-prompt
 
     Hidden assumptions: The model doesn’t know from which perspective your output should to be.
 
-    III)Write a summary of this journal.
+    III)Write a summary of this journal on kids.
     Why it's problematic: No formate or structure specified
 
     Potential harm: Gives output in an unstructure and disorganized formate. 
@@ -44,7 +44,7 @@ https://blog.agent.ai/how-to-identify-and-fix-a-bad-prompt
 
     II) As an expert backend python developers with many years of experiences. Write a summary of Django framework in creating a blog.
 
-    III) Summarize the following journals into 3 bullet points under the headings: Problem, Solution, and Outcome.”
+    III) Summarize this journal on kids into 3 bullet points under the headings: Problem, Solution, and Outcome.”
 
 4. Explain your improvements.
     I)Tell me about dogs from Germany with mixed colours and height for guarding home and lives in 250 words.
@@ -53,13 +53,163 @@ https://blog.agent.ai/how-to-identify-and-fix-a-bad-prompt
     II) As an expert backend python developers with many years of experiences. Write a summary of Django framework in creating a blog.
     Setting a persona guides tone, depth, and style — producing a more aligned response.
 
-    III) Summarize the following journals into 3 bullet points under the headings: Problem, Solution, and Outcome.”
+    III) Summarize this journal on kids into 3 bullet points under the headings: Problem, Solution, and Outcome.”
     A structured output reduces ambiguity, improves readability, and simplifies downstream automation.
 
 
 Part B: Test and Validate
 
 5. Test original vs. improved prompts with an LLM.
+
+ I)Test Original: Tell me about animals
+
+ Output: Animals are living organisms that belong to the biological kingdom **Animalia**. They are multicellular, consume organic material (they are heterotrophs), can usually move independently, and respond to their environment.
+
+Let’s break it down clearly:
+
+---
+
+## 1. What Makes an Animal an Animal?
+
+Animals generally:
+
+* Are made of many cells (multicellular)
+* Do not make their own food (unlike plants)
+* Obtain energy by eating other organisms
+* Can move at some stage of life
+* Have specialized tissues (like nerves and muscles)
+
+---
+
+## 2. Major Groups of Animals
+
+Animals are divided into two large categories:
+
+### A. Invertebrates (No Backbone)
+
+These make up about **95% of all animal species**.
+
+Examples:
+
+* Insects (ants, butterflies)
+* Spiders
+* Worms
+* Jellyfish
+* Octopuses
+
+They tend to be smaller and often have exoskeletons or soft bodies.
+
+---
+
+### B. Vertebrates (Have a Backbone)
+
+These animals have a spinal column.
+
+Main groups include:
+
+* Fish
+* Amphibians (frogs, salamanders)
+* Reptiles (snakes, lizards)
+* Birds
+* Mammals
+
+Humans are mammals.
+
+---
+
+## 3. Mammals (Since You’re in Nigeria, You’ll Recognize Many)
+
+Mammals:
+
+* Have hair or fur
+* Are warm-blooded
+* Produce milk for their young
+
+Examples found in Africa include:
+
+* African elephant
+* Lion
+* Cheetah
+
+---
+
+## 4. Birds
+
+Birds:
+
+* Have feathers
+* Lay eggs
+* Are warm-blooded
+* Most can fly
+
+Example:
+
+* Ostrich (the largest bird, found in Africa)
+
+---
+
+## 5. Why Animals Are Important
+
+Animals:
+
+* Maintain ecological balance
+* Help pollinate plants
+* Control pest populations
+* Provide food and materials for humans
+* Contribute to biodiversity
+
+Predators like the Lion help regulate herbivore populations, keeping ecosystems stable.
+
+---
+
+## 6. Intelligence in Animals
+
+Some animals show remarkable intelligence:
+
+* Dolphins use complex communication
+* Elephants show memory and emotional behavior
+* Crows use tools
+
+---
+
+## 7. Fun Fact
+
+The largest animal ever known is the Blue whale — even larger than dinosaurs.
+
+
+Improved version:Tell me about dogs from Germany with mixed colours and height for guarding home and lives in 250 words.
+
+Output: One of the most well-known dogs from Germany that has mixed colours, medium-to-tall height, and excellent guarding ability is the German Shepherd. This breed originated in Germany in the late 19th century and was developed specifically for intelligence, strength, and protection work. German Shepherds usually have mixed coat colours such as black and tan, sable (brown and black mix), black and silver, or even solid black, which gives them a striking and alert appearance.
+
+In terms of height, adult German Shepherds are considered large dogs. Males typically stand about 24–26 inches (60–65 cm) tall at the shoulder, while females are slightly shorter at around 22–24 inches (55–60 cm). Their strong build, upright ears, and confident posture make them naturally intimidating to intruders, which is why they are widely used for home security and protection roles.
+
+German Shepherds are highly intelligent and loyal, making them excellent guard dogs for homes and families. They are naturally protective and can quickly detect unusual movements or threats. However, they are not aggressive by default; with proper training and socialization, they become calm, disciplined, and reliable protectors.
+
+Another important trait is their strong sense of duty. They are often used by police and security services because they can be trained to follow commands, patrol areas, and respond to danger effectively. They also form deep bonds with their owners, meaning they guard not only property but also the lives of the people they love. Overall, their mixed coat colours, tall stature, intelligence, and loyalty make them one of the best German breeds for home guarding.
+
+
+III) Test Original: Write a summary of a journal on kids.
+
+Output: ### Sample Journal Summary on Kids (Child Development)
+
+This journal focuses on the growth and development of children, emphasizing how early childhood experiences shape cognitive, emotional, and social outcomes. It explains that children learn rapidly through interaction with their environment, caregivers, and peers, making early education and supportive parenting crucial for healthy development.
+
+The journal highlights key developmental stages, noting that physical growth, language acquisition, and problem-solving skills evolve progressively as children mature. It also discusses the importance of play, stating that play-based learning enhances creativity, social skills, and emotional regulation. Additionally, the journal stresses the role of nutrition, healthcare, and a safe environment in promoting overall well-being.
+
+Another major point in the journal is the impact of family and school on a child’s behavior and academic performance. Positive reinforcement, effective communication, and structured learning environments are identified as factors that improve children’s confidence and learning abilities. The journal also addresses challenges such as behavioral issues, learning difficulties, and the effects of technology on children’s attention span and social interaction.
+
+In conclusion, the journal argues that a holistic approach involving parents, educators, and society is essential for raising well-rounded children. Supporting children’s emotional, physical, and intellectual needs during early years lays a strong foundation for their future success and personal development.
+
+
+Improved version: Summarize this journal on kids into 3 bullet points under the headings: Problem, Solution, and Outcome.”
+
+Output:
+* **Problem:** Children’s development can be negatively affected by poor early experiences, inadequate learning environments, limited parental support, and challenges such as behavioral issues, learning difficulties, and excessive technology use.
+* **Solution:** Provide supportive parenting, quality early education, play-based learning, proper nutrition, healthcare, and structured school environments that encourage communication, creativity, and emotional growth.
+* **Outcome:** Children develop stronger cognitive, social, and emotional skills, leading to better academic performance, improved well-being, and a solid foundation for future success.
+
+
+
 
 6. Compare outputs: Did your changes work? What surprised you?
     I) My work changed dramatically from the original Test.The original test output was generic, broad and lengthy telling me about all catergories of animals 
