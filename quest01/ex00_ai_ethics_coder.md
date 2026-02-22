@@ -199,8 +199,9 @@ AI modification
             right -= 1
 
         return {
-    "is_palindrome":True,
-    "Index valu":None
+            "is_palindrome":True,
+            "Index valu":None
+        }
 
 
     Part D: The Fairness Contract
@@ -209,44 +210,42 @@ AI modification
 
 
 
-**I will use AI when:**
+1. I will use AI when:
 
 * After I've attempted a problem for at least 20 minutes
 * To understand why my solution works/doesn't
 * To explore alternatives after I have a working solution
-* To debug errors I cannot identify on my own
-* To learn new concepts or clarify confusing topics
-* To review best practices and improve code quality
-* To get explanations, not just answers
 * To check for edge cases I may have missed
-* To deepen my understanding rather than replace my thinking
+* To learn new concepts or clarity confusing topics
+* T review best practices and improve code quality
+* To get explanations, and improve code quality.
+* To check for edge cases may have missed
 
 
 
-**I will NOT use AI when:**
+
+2.  I will NOT use AI when:
 
 * I haven't tried the problem myself
 * I'm taking an assessment or test
 * I need to build fundamentals
-* I am expected to produce original work without assistance
-* I am copying solutions without understanding them
-* I am using it as a shortcut instead of learning
 * The task is meant to test my independent problem-solving ability
 * I cannot explain the solution in my own words afterward
+* I am expected to create original work without assistance
+* I am coping solution without understanding them
+* I am using AI as a shortcut instead of learning
 
 
 
-**I know I'm using AI fairly when:**
+3. I know I'm using AI fairly when:
 
-* I can explain my code without looking at AI's response
+*I can explain my code without looking at AI's response
 * I could solve similar problems without AI
 * I feel more confident in my abilities
-* I modify and adapt AI suggestions instead of copying them directly
-* I understand the logic behind every solution provided
-* My learning improves rather than becomes dependent on AI
 * I use AI as a tutor, not a replacement for effort
-* I verify outputs instead of blindly trusting them
-* I can identify mistakes in AI-generated answers
+* I can identify mistakes in AI generated answer
+* I will try to understand every solution provided
+* I modify and adapt AI answers instead of copying them directly
 
 
 

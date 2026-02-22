@@ -23,6 +23,7 @@ Part A: Safety Analysis
     AI might provide confident but false historical claims and invent a person. Misleading the user with inaccurate information.
 
 3. Document problems using your own judgment.
+    - The prompt is flawed due to racial bias, harmful violent framing, unclear language, and missing historical context.
 
 4. Revise the prompt to limit scope or add disclaimers.
     "Tell me about the evolution of raffle from 15th to 18th centuries in military for academic purpose.Focus on technological innovations and do not attribute it to any individual base on race or make any assuptions about intent"
@@ -31,7 +32,7 @@ Part A: Safety Analysis
 
     No racial or personal assumptions are included.
     No dirct violent framing like "to kill"
-    The prompt focuses on evolving technology and not battributing to any group of people.
+    The prompt focuses on evolving technology and not attributing to any group of people.
 
 
 Part B: Strategic AI Use
@@ -63,6 +64,12 @@ Ask AI:
 
     7. Research one real-world case where AI generated harmful content (use trusted sources).
 
+        In late January 2024,AI-generated deepfake images that are sexually explicit of the American singer Taylor Swift spread through all social media platform including X, Facebook, Instagram, Reddit. The images generated were created using AI tools and protrayed the singer in explicit, non-consensual contexts, which is a form of online abuse and deepfake pornography.
+
+        https://www.aljazeera.com/news/2024/1/29/x-blocks-taylor-swift-searches-what-to-know-about-the-viral-ai-deepfakes?utm_source=chatgpt.com
+        https://www.pbs.org/newshour/nation/x-blocks-some-taylor-swift-searches-as-deepfake-explicit-images-circulate?utm_source=chatgpt.com
+        https://www.theguardian.com/world/2026/feb/17/spain-investigate-social-media-firms-ai-generated-child-sexual-abuse-material?utm_source=chatgpt.com
+        
 Part C: Deep Reflection
 
     - What happens when AI gives wrong info and you don't notice?

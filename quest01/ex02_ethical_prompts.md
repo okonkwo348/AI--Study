@@ -36,7 +36,7 @@ https://blog.agent.ai/how-to-identify-and-fix-a-bad-prompt
 
     Potential harm: Gives output in an unstructure and disorganized formate. 
 
-    Hidden assumptions: The model doesn't know hoe to structure or order your work.
+    Hidden assumptions: The model doesn't know how whether to structure or order your work.
 
 3. Rewrite each prompt to be clearer, fairer, and safer.
 
@@ -63,7 +63,9 @@ Part B: Test and Validate
 
  I)Test Original: Tell me about animals
 
- Output: Animals are living organisms that belong to the biological kingdom **Animalia**. They are multicellular, consume organic material (they are heterotrophs), can usually move independently, and respond to their environment.
+ OUTPUT: 
+ 
+Animals are living organisms that belong to the biological kingdom **Animalia**. They are multicellular, consume organic material (they are heterotrophs), can usually move independently, and respond to their environment.
 
 Let’s break it down clearly:
 
@@ -179,7 +181,9 @@ The largest animal ever known is the Blue whale — even larger than dinosaurs.
 
 Improved version:Tell me about dogs from Germany with mixed colours and height for guarding home and lives in 250 words.
 
-Output: One of the most well-known dogs from Germany that has mixed colours, medium-to-tall height, and excellent guarding ability is the German Shepherd. This breed originated in Germany in the late 19th century and was developed specifically for intelligence, strength, and protection work. German Shepherds usually have mixed coat colours such as black and tan, sable (brown and black mix), black and silver, or even solid black, which gives them a striking and alert appearance.
+OUTPUT: 
+
+One of the most well-known dogs from Germany that has mixed colours, medium-to-tall height, and excellent guarding ability is the German Shepherd. This breed originated in Germany in the late 19th century and was developed specifically for intelligence, strength, and protection work. German Shepherds usually have mixed coat colours such as black and tan, sable (brown and black mix), black and silver, or even solid black, which gives them a striking and alert appearance.
 
 In terms of height, adult German Shepherds are considered large dogs. Males typically stand about 24–26 inches (60–65 cm) tall at the shoulder, while females are slightly shorter at around 22–24 inches (55–60 cm). Their strong build, upright ears, and confident posture make them naturally intimidating to intruders, which is why they are widely used for home security and protection roles.
 
@@ -190,7 +194,9 @@ Another important trait is their strong sense of duty. They are often used by po
 
 III) Test Original: Write a summary of a journal on kids.
 
-Output: ### Sample Journal Summary on Kids (Child Development)
+OUTPUT:
+
+ ### Sample Journal Summary on Kids (Child Development)
 
 This journal focuses on the growth and development of children, emphasizing how early childhood experiences shape cognitive, emotional, and social outcomes. It explains that children learn rapidly through interaction with their environment, caregivers, and peers, making early education and supportive parenting crucial for healthy development.
 
@@ -203,7 +209,8 @@ In conclusion, the journal argues that a holistic approach involving parents, ed
 
 Improved version: Summarize this journal on kids into 3 bullet points under the headings: Problem, Solution, and Outcome.”
 
-Output:
+OUTPUT:
+
 * **Problem:** Children’s development can be negatively affected by poor early experiences, inadequate learning environments, limited parental support, and challenges such as behavioral issues, learning difficulties, and excessive technology use.
 * **Solution:** Provide supportive parenting, quality early education, play-based learning, proper nutrition, healthcare, and structured school environments that encourage communication, creativity, and emotional growth.
 * **Outcome:** Children develop stronger cognitive, social, and emotional skills, leading to better academic performance, improved well-being, and a solid foundation for future success.
@@ -269,7 +276,7 @@ Part C: Reflection
 
     - If you'd asked AI to "write ethical prompts" from the start, would you understand why they're ethical?
 
-    Yes, I will understand why they are ethical.
+    Yes, I will understand why they are ethical to some extend because of my knowledge of prompting I learent earlier.
 
     - Can you now design ethical prompts without AI?
 

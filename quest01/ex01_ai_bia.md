@@ -17,20 +17,19 @@ Part A: Build Your Foundation (no AI first)
        Therefore, when the sentence is gender-neutral, it fails to acknowledge the real-world gender imbalances within the profession.
        This perpetuates the stereotype that doctors are typically male, potentially discouraging women from pursuing careers in medicine and reinforcing gender bias in the field.
        Gender bias in language generation is not always about explicit discrimination but can also manifest through subtle nuances that perpetuate societal biases and inequalities.
+       example of such prompt: "Give me the best doctors that are male".
 
    - Explain in your own words why that bias may exist.
        Gender bias in AI model is as a result of human bias or prejudices stirred up from historical existing data used in training and proessing an AI model.
 
    - Propose one mitigation (data balancing, prompt phrasing, model choice).
-       To mitigate gender bias we use data balancing tool like Langtest is an invaluable tool for evaluating and addressing model bias, specifically focusing on gender, ethnicity,
-       and religion biases in natural language processing (NLP) models. The Harness class is a testing class for Natural Language Processing (NLP) models.
-       It evaluates the performance of a NLP model on a given task using test data and generates a report with test results.
+       To mitigate gender bias we use data balancing tool like Langtest is an invaluable tool for evaluating and addressing model bias, specifically focusing on gender, ethnicity, and religion biases in natural language processing (NLP) models by providing an automated, end-to-end pipeline to detect, quantify, and reduce stereotypes in NLP models.
 
 
 
 Why struggle first? That struggle is where real learning happens.
 
-I struggled because the topic was strange to me and while researching it was diffult to graps thge knowledge at first glance.
+I struggled because the topic was strange to me and while researching it was diffult to graps the knowledge at first glance.
 
 
 

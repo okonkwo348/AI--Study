@@ -1,3 +1,11 @@
+1. Verify Python installation (optional):
+
+python --version
+
+Verify installation by running:
+    python --version
+
+
 2. Open a new notebook or markdown file for notes and reflections.
 
 I will use this notyebook to:
@@ -23,20 +31,22 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC12057767/
 4. Write your personal AI learning ethics commitment:
 
 I will use AI to:
+
   - Amplify my understanding
   - Challenge my assumptions
   - Explore beyond my current knowledge
-  - Work faster after I understand deeply
-  -Get explanations when I am stuck after genuine effort.
-  - Review and improve my reasoning, not replace it.
-  - Discover alternative approaches to problem.
-  - strengthen my conceptual understanding.
+  - Work faster after I understand deeply  
+  - strengthen my conceptual understanding
+  - Discover alternative approaches to problem
+  - Review and improve my reasoning, not replace
 
 I will NOT use AI to:
+
   - Avoid the struggle of learning
   - Get answers I haven't earned
   - Skip building fundamentals
-  - Replace my own Thinking
-  - Copy solutions without understanding them.
-  - Use AI during tests, assessments, or graded tasks.
+  - Replace my own thinking
+  - Use AI during tests, assessments, or graded tasks
+  - Copy solution without understanding them
   - Bypass the problem-solving process
+  

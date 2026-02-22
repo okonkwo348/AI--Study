@@ -110,6 +110,26 @@ Design a small smart-city network (1,000 IoT sensors, 50 traffic lights, 10 emer
 
 
 Answer:
+
+Network Component                   Type                    Routing Behaviour                      Justification
+
+Cloud control centre            infrastructure              Proctive                           Needs constant global routing
+
+City core Network               Backbone                    Proactive                          Stable + high speed
+
+Edge Gateways                   Semi-fixed                  Proactive + Reactive                Manage many devives efficiently
+
+IoT Sensors(1000)               Lowerpower nodes            Reactive                           save energy & bandwidth
+
+Traffic Lights (50)              critical infrasture        Proactive                          Real-time control required
+
+Emergency Vehicles (10)         Mobile network             Reactive                            Dynamic movement & topology
+
+
+
+
+AI Modified
+
 Proposed Hybrid Smart-City Wireless Network
         Cloud Control Center
                 |
@@ -203,7 +223,8 @@ Critical Failure Point
 
     Architecture design
 
-    Failure analysis
+    Failure 
+    
 
     AI Contribution: 30%
 
@@ -213,12 +234,12 @@ Critical Failure Point
 
     Predictive insights
 
-    Could you defend decisions without AI?
+- Could you defend decisions without AI?
     yes, I can.
 
 
-    What will you still remember in 6 months?
+- What will you still remember in 6 months?
     yes, but not everything.
 
-    Did AI make you sharper, or think for you?
+- Did AI make you sharper, or think for you?
     Yes AI makes my me sharper.
