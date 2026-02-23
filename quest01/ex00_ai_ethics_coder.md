@@ -31,6 +31,12 @@ Part A: The Critical Distinction
 output = function_name(5, 3)
 print(output)
 
+3. Write a brief paragraph: Where are you now, and where do you want to be?
+
+    I am currently a learner A that usese AI as an answer generator and I want to be a learner B to use AI as a learning amplifier in order to really 
+    understand any new concept and knowledge. AI as an amplifier help to solidifies knowledge and make the knowledge sticks better.
+
+
 
 Part B: The Wrong Way vs. The Right Way
 
@@ -45,6 +51,8 @@ Track A — The Wrong Way (observe but DO NOT do this):
     # Quick test
     print(is_palindrome("radar"))  # True
     print(is_palindrome("python")) # False
+
+
 
 Track B — The Right Way (DO THIS): Step 1: Attempt independently
 

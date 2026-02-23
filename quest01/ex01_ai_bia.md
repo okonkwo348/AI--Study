@@ -1,14 +1,3 @@
-https://pacific.ai/unmasking-the-biases-within-ai-how-gender-ethnicity-religion-and-economics/
-
-https://www.crescendo.ai/blog/ai-bias-examples-mitigation-guide
-
-
-
-https://www.ibm.com/think/topics/ai-bias
-https://www.summitlaw.com/law-blog/ai-bias-and-how-to-mitigate-it
-
-
-
 Part A: Build Your Foundation (no AI first)
 
    - Find or simulate a short example of model bias (e.g., gender, nationality, profession).
@@ -35,7 +24,7 @@ I struggled because the topic was strange to me and while researching it was dif
 
 Part B: Strategic AI Use
 
-Ask AI to deepen your understanding:
+- Ask AI to deepen your understanding:
 
 
 Here are the key underlying causes you haven’t fully considered:
@@ -203,7 +192,10 @@ If you implement these, start small: Use Langtest to baseline your model, then i
 If you'd like me to dive deeper into any cause (e.g., examples of algorithmic amplification) or help simulate a Langtest run via code, let me know!
 
 
-Then explore edge cases:
+
+
+
+- Then explore edge cases:
 
 # 1. Healthcare: Biased AI Can Lead to Unequal Treatment
 
@@ -325,6 +317,7 @@ Bias in AI decision systems can:
 * Reduce productivity at a societal level
 
 So the impact is not only moral — it is also economic.
+
 
 
 Part C: Critical Reflection

@@ -18,6 +18,8 @@ Phase 1: Build Foundation (you first)
    (Server G)
 
 
+My Justification:
+
 Devices:
 
 Laptop A = Student laptop
@@ -53,7 +55,7 @@ F connect to G
 
 A → B → C → E → F → G
 
-My Justification:
+
 Using & devices is ideal because is not too small or too complex to understand and learn.
 
 
@@ -216,24 +218,10 @@ Critical Failure Point
 
     % human judgment vs. AI contribution
     Estimated:
-
-    Human Judgment: 70%
-
-    Protocol selection
-
-    Architecture design
-
-    Failure 
+    Human Judgement is 60% base on research, studey and understanding.
     
-
-    AI Contribution: 30%
-
-    Optimization ideas
-
-    Scalability refinement
-
-    Predictive insights
-
+    AI contribution is 40% base on deep understanding.
+    
 - Could you defend decisions without AI?
     yes, I can.
 
