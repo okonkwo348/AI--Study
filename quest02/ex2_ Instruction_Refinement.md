@@ -123,16 +123,6 @@
     * **Expert Systems / Rule-Based Systems** – AI that makes decisions using predefined rules and logic, similar to how a human expert would follow guidelines.
 
            
-            That is also a direct instruction prompt. Here’s why:
-
-            - Starts with a verb: “Summarize” → it tells the responder to       perform an action.
-            - Specifies output format: “in 5 bullet points” → gives clear instructions on how to present the answer.
-            - Goal: It commands the AI or person** to condense information in a specific way, rather than asking a question.
-
-        Compare with the question-style version:
-
-            - Direct instruction: “Summarize the main AI techniques in 5 bullet points.” ✅
-            - Question-style: “What are the main AI techniques?” ❌ (asks for information rather than instructing action)
 
         
 
