@@ -1,19 +1,22 @@
 1. Write a prompt asking the same question (e.g., "What is climate change?").
 
-    That is a **question-style prompt** because it’s **asking for information** rather than instructing an action.
+    OUTPUT:
 
-* **Starts with a question word:** “What” → asking for explanation or definition.
-* **Goal:** You want the AI (or a person) to provide an answer or explanation.
-* **Not a command:** It doesn’t tell the AI to “Explain” or “List,” it simply **asks for information**.
+    Climate change is the long-term change in Earth’s average weather patterns, including temperature, rainfall, and extreme weather events.
 
-**Example comparison:**
+    It mainly refers to the recent warming of the planet caused by human activities such as burning fossil fuels (like coal, oil, and gas), deforestation, and industrial processes. These activities release greenhouse gases (such as carbon dioxide and methane) into the atmosphere, which trap heat and make the Earth warmer.
 
-| Prompt                                    | Type               | Explanation                                       |
-| ----------------------------------------- | ------------------ | ------------------------------------------------- |
-| “What is climate change?”                 | Question-style     | Asking for a definition or explanation            |
-| “Explain climate change in simple terms.” | Direct instruction | Tells the AI to perform an action (explain)       |
-| “Climate change causes and effects.”      | Statement-style    | Just mentions a topic, no question or instruction |
+    Key effects of climate change include:
 
+    * Rising global temperatures
+    * More frequent heatwaves and extreme weather
+    * Melting ice caps and rising sea levels
+    * Changes in rainfall patterns (floods and droughts)
+    * Impact on ecosystems, agriculture, and human health
+
+    In simple terms, climate change means the Earth’s climate is shifting over a long period, mostly due to human influence, leading to warmer temperatures and more unstable weather patterns.
+
+    
 
 2. Add role instructions for at least 3 personas, such as:
 

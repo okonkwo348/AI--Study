@@ -1,5 +1,7 @@
 1. Ask the model to act as a coding mentor.
 
+    OUTPUT:
+
     Great — I’ll act as your **coding mentor** from now on. 👨‍💻
 
     That means I will:
@@ -51,101 +53,29 @@
 
 2. Provide a simple piece of code (e.g., a Python function with a bug).
 
-    Nice attempt! Let’s review this like a coding mentor. 👨‍💻
 
-    ### 🔍 Issue in Your Code
+    Errored code:
 
-    You wrote:
-
-    ```python
-    for char in :
-    ```
-
-    This line is incomplete. Python doesn’t know **what to loop over**. You meant to loop over the string `s`.
-
-    So the error is a **syntax error** because the loop target is missing.
-
-    ---
-
-    ### 🧠 What You Were Trying to Do (Good Logic!)
-
-    Your approach is actually solid:
-
-    1. Convert to lowercase ✔️
-    2. Remove non-alphabet characters ✔️
-    3. Check palindrome using slicing ✔️
-
-    That’s a clean and logical structure.
-
-    ---
-
-    ### ✅ Corrected Version (Minimal Fix)
-
-    Here is your code with only the necessary correction:
-
-    ```python
     def is_palindrome(s):
         # Convert the entire string to lowercase
         s = s.lower()
         
         # Clean the string: remove any characters that are not alphabets
         cleaned_str = ""
-        for char in s:
+        for char in :  # error
             if char.isalpha():
                 cleaned_str += char
                 
         # Check for palindrome
         return cleaned_str == cleaned_str[::-1]
-    ```
-
-    ---
-
-    ### 🚀 Mentor Tip (Important for Performance)
-
-    Right now, you are using:
-
-    ```python
-    cleaned_str += char
-    ```
-
-    This works, but in Python, repeatedly concatenating strings inside a loop is **less efficient** (time complexity becomes worse due to string immutability).
-
-    A better, more Pythonic approach:
-
-    ```python
-    def is_palindrome(s):
-        cleaned = []
-        for char in s.lower():
-            if char.isalpha():
-                cleaned.append(char)
-        cleaned_str = "".join(cleaned)
-        return cleaned_str == cleaned_str[::-1]
-    ```
-
-    ---
-
-    ### 📊 Complexity (Since you’ve asked about this before)
-
-    * Time Complexity: **O(n)** (one pass to clean + one reverse check)
-    * Space Complexity: **O(n)** (new cleaned string)
-
-    ---
-
-    ### 🎯 Mentor Question for You
-
-    Right now your function removes everything except alphabets.
-
-    What should happen if the input is:
-
-    ```
-    "A man, a plan, a canal: Panama"
-    ```
-
-
+        
 
 
 3. Prompt the model: "Act as a mentor reviewing this code. Provide corrections and explain improvements."
 
+
+    AI OUTPUT:
+    
     Alright, mentor mode on. 👨‍💻
     Let’s review your code carefully like a code review session.
 
