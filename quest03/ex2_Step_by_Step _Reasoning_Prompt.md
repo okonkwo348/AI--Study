@@ -38,4 +38,4 @@
 
 3. Compare outputs with and without the reasoning instruction.
 
-    The first output of the prompt "Calculate the factorial of 5" gives an unexplanatory answer which is not step by step. While the last prompt "Let's think step by step before answering." gives an output that is explanatory and step by step approach in solving the problem.
+    The first output of the prompt without reasoning instruction "Calculate the factorial of 5" gives an unexplanatory answer which is not step by step. While the last prompt with reasoning instruction "Let's think step by step before answering." gives an output that is explanatory and step by step approached in solving the problem.
