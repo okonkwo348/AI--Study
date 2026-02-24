@@ -36,16 +36,7 @@
         Word count: 200 ✅
 
 
-    - Comparative: "Compare the effects of climate change on coastal vs inland regions in 5 bullet points."
-
-        **OUTPUT**
-        * **Sea Level Rise:** Coastal regions face flooding and erosion as rising seas encroach on land, while inland areas are generally unaffected by sea-level changes.
-        * **Storm Impact:** Coastal areas experience stronger hurricanes, typhoons, and storm surges, whereas inland regions may face weaker storms but more frequent heatwaves.
-        * **Water Availability:** Inland regions may suffer from droughts and reduced river flow, while coastal areas may experience saltwater intrusion into freshwater sources.
-        * **Ecosystem Changes:** Coastal ecosystems like mangroves and coral reefs are highly vulnerable to warming and acidification; inland ecosystems face shifts in forests, grasslands, and freshwater habitats.
-        * **Human Infrastructure:** Coastal cities risk property damage, port disruption, and displacement from flooding, while inland cities may struggle with heat stress, water scarcity, and agricultural challenges.
-
 
 3. Document the improvement in clarity and usefulness of the outputs.
-    - For the instructional Prompt: It's output was direct in it approach and was tarloired towards high school learners in tone and style unlike the vague prompt that has no specialization.
-    - For the comparative Prompt: It's also direct in it's approach but constrain the output of climate change between coastal and inland region.
+    - For the instructional Prompt: It's output was direct in it's approach and was tarloired towards high school learners in tone and style unlike the vague prompt that has no specialization.
+    
