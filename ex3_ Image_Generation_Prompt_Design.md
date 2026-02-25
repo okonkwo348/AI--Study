@@ -16,4 +16,4 @@
 
 3. Compare results between a vague prompt and a refined descriptive prompt.
 
-The vague prompt gave an image output of a student as the main charater in the class with a blur background. The descriptive Prompt gave a jofull student who is happy about his result with the whole class cheering him up. It so emotional that his in tears.
+The vague prompt gave an image output of a student as the main charater in the class with a blur background i.e less things happening around the student. The descriptive Prompt gave a jofull student who is happy about his result with the whole class cheering him up. It so emotional that his in tears.
